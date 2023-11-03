@@ -12,7 +12,7 @@ export default function Group() {
                 <EachPart 
                     group="Programing" 
                     description="ゲームやシステムの制作" 
-                    link=""
+                    link="https://drive.google.com/file/d/1j7T_4WnvK2_v1Pnql69QrSxdXAuAl8d6/view?usp=sharing"
                     image='/about/state1.jpg'></EachPart>
                 <EachPart 
                     group="CG" 
