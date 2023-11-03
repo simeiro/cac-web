@@ -5,8 +5,8 @@ export default function Group() {
         <>
         <div className='pb-48'>
             <div className="text-center">
-                <h1 className="text-7xl font-moon">Group</h1>
-                <p>班活動</p>
+                <h1 className="text-7xl font-moon ">Group</h1>
+                <p className="pb-10">班活動</p>
             </div>
             <div className="flex flex-wrap justify-center items-center pb-20">
                 <EachPart 

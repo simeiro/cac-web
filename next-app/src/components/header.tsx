@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import localImage from '../../public/header/logo.png'
-import Event from "@/components/home/event/event";
 export default function Header() {
     return (
         <header className='pb-12 w-full  bg-white '>
@@ -8,8 +7,8 @@ export default function Header() {
             <div className='flex items-center justify-between  pb-2 '>
                 <Image src={localImage} alt="C.A.C. logo" width={270} height={150} className=""/>
                 <div className='text-2xl pt-6 font-moon'>
-                    <a href="#about" className="pr-10 hover:text-blue-500">About</a>
-                    <a href="#group" className="pr-10 hover:text-blue-500">Group</a>
+                    <a href="#about" className="pr-10 hover:text-blue-500 overscroll-auto">About</a>
+                    <a href="#group" className="pr-10 hover:text-blue-500 scroll-behavior">Group</a>
                     <a href="#location" className="pr-10 hover:text-blue-500">Location&dates</a> 
                     <a href="#event" className='pr-20 hover:text-blue-500'>Event</a>
                 </div>

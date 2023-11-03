@@ -3,18 +3,20 @@ import Image from "next/image";
 export default function Location(){
     return(
         <>
-            <div className="text-center pb-48">
-                <h1 className="text-7xl font-moon">Location & Dates</h1>
-                <p className="pb-5">活動場所、日時</p>
+            <div className=" pb-48">
+                <h1 className=" text-center text-7xl font-moon">Location & Dates</h1>
+                <p className="pb-24 text-center">活動場所、日時</p>
                 <div className="flex flex-wrap justify-center">
                 
                 
                 <div className="">
                     <Image src="/about/state2.jpg" alt="作業風景" width={640} height={360}></Image>
                 </div>
-                <div className="flex-row mx-28 items-center">
-                    <p className="text-3xl">水曜日 10201情報処理教室 (13:15-19:30)</p>
-                    <p className="text-3xl">木曜日 10202情報処理教室 (16:45-19:30)</p>
+                <div className="flex-row mx-28">
+                    <p className="text-3xl font-xano pt-10">水曜日</p>
+                    <p className="text-3xl font-xano">10201情報処理教室 (13:15-19:30)</p>
+                    <p className="text-3xl font-xano pt-32">木曜日 </p>
+                    <p className="text-3xl font-xano">10202情報処理教室 (16:45-19:30)</p>
                 {/* <p className="text-5xl pb-10 font-hiragino">デジタル系創作団体</p>  
                 <p className="text-2xl">概要</p> */}
                 <div className="text-sm pb-20">

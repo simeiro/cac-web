@@ -4,10 +4,10 @@ import Image from "next/image";
 export default function Event() {
     return (
         <>
-            <div className="pb-24">
+            <div className="pb-16">
                 <div className="text-center">
                     <h1 className="text-7xl font-moon">Event</h1>
-                    <p>年間行事</p>
+                    <p className="pb-20">年間行事</p>
                 </div>
                 <div className="flex flex-wrap">
                     <div>
@@ -21,11 +21,11 @@ export default function Event() {
                     </div>
                     <div className="container w-event-image">
                         <div className="grid justify-items-end">
-                            <Image src="/about/state_board.jpg" alt="作業風景" width={320} height={160} className="pb-20"></Image>
+                            <Image src="/about/state_shinkan.jpg" alt="新歓祭の様子" width={250} height={160} className="pb-20"></Image>
                         </div>
-                        <Image src="/about/state_board.jpg" alt="作業風景" width={320} height={160} className="pb-20"></Image>
+                        <Image src="/about/state_gassyuku.jpg" alt="夏合宿の様子" width={320} height={160} className="pb-20"></Image>
                         <div className="grid justify-items-end">
-                            <Image src="/about/state_board.jpg" alt="作業風景" width={320} height={160} className="pb-20"></Image>
+                            <Image src="/about/state_kouyama.png" alt="神山祭の様子" width={320} height={160} className="pb-20"></Image>
                         </div>
                     </div>
                 </div>
