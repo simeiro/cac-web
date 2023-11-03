@@ -2,7 +2,7 @@ import Image from 'next/image'
 import localImage from '../../public/header/logo.png'
 export default function Header() {
     return (
-        <header className='pb-12 w-full  bg-white '>
+        <header className='pb-8 w-full  bg-white '>
             
             <div className='flex items-center justify-between  pb-2 '>
                 <Image src={localImage} alt="C.A.C. logo" width={270} height={150} className=""/>

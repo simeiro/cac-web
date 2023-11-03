@@ -14,7 +14,7 @@ export default function Event() {
                         <EachEvent number="4" text="新歓祭"></EachEvent>
                         <EachEvent number="6" text="新入生歓迎コンパ"></EachEvent>
                         <EachEvent number="8" text="夏合宿 / 制作合宿"></EachEvent>
-                        <EachEvent number="9" text="サタデージャンボリー"></EachEvent>
+                        <EachEvent number="9" text="サタデージャンボリー / KC3"></EachEvent>
                         <EachEvent number="11" text="神山祭 / 逆襲コンパ"></EachEvent>
                         <EachEvent number="12" text="幹部改選 / 追い出しコンパ"></EachEvent>
                         <EachEvent number="3" text="春合宿 / 制作合宿 / 送別会"></EachEvent>

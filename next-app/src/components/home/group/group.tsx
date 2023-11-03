@@ -18,7 +18,7 @@ export default function Group() {
                     group="CG" 
                     description="Blender, Mayaなどを使った3Dモデルの制作" 
                     link="https://drive.google.com/file/d/1u-eOinEmJv83LldyxdJx3dppJV02gh1u/view?usp=sharing"
-                    image="/about/state1.jpg"></EachPart>
+                    image="/about/state_CG.jpg"></EachPart>
                 <EachPart 
                     group="Graphic" 
                     description="イラスト、アニメーションなどのデザインに関わるものの制作" 
@@ -28,7 +28,7 @@ export default function Group() {
                     group="Music" 
                     description="BGM, 効果音やボカロなどの音楽、音源を制作" 
                     link="https://drive.google.com/file/d/1-uBKgkBWpiepk3tw6bN2YTGIOJCBS_8u/view?usp=sharing"
-                    image="/about/state1.jpg"></EachPart>
+                    image="/about/state_music.jpg"></EachPart>
                 {/* <EachPart 
                     group="準班" 
                     description="他の班と掛け持ちしながら活動。動画編集、シナリオ制作など" 
