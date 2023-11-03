@@ -9,7 +9,7 @@ export default function About() {
                 <p className="pb-36">C.A.C.とは？</p>
             </div>
 
-            <div className="flex flex-wrap ">
+            <div className="flex flex-wrap justify-center items-center">
                 
                 <div className="flex-row mx-24">
                     <p className="text-6xl pb-10 font-hina">デジタル系創作団体</p>  

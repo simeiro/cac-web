@@ -9,7 +9,7 @@ export default function Event() {
                     <h1 className="text-7xl font-moon">Event</h1>
                     <p className="pb-20">年間行事</p>
                 </div>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap justify-center items-center">
                     <div>
                         <EachEvent number="4" text="新歓祭"></EachEvent>
                         <EachEvent number="6" text="新入生歓迎コンパ"></EachEvent>
