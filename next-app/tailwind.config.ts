@@ -15,7 +15,26 @@ const config: Config = {
       },
       inset:{
         '1/8': '12.5%'
-      }
+      },
+      fontFamily: {
+        "hina": "hina",
+        "moon": "moon",
+        "zen": "zen",
+        "poly": "poly",
+        "wapuro-mincho": "wapuro-mincho",
+        "athelas": "athelas",
+        "xano": "xano",
+        'Hiragino Sans': "hiragino",
+        "canterbury": "canterbury",
+        "zapfino": "zapfino",
+        "Hannari": "Hannari",
+        "Verdana": "Verdana",
+
+      },
+      width: {
+        'event': '38rem',
+        'event-image': '44rem',
+      },
     },
   },
   plugins: [],

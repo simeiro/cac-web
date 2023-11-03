@@ -3,12 +3,11 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 import Header from '@/components/header'
-import Footer from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'C.A.C. website',
+  title: '電子計算機応用部 / C.A.C.',
   description: 'introduction of C.A.C.',
 }
 
@@ -21,11 +20,13 @@ export default function RootLayout({
     <html lang="ja">
       
       <body className={inter.className}>
+        
         <Header></Header>
         <div>
           {children}
         </div>
-        <Footer></Footer>
+        
+        
       </body>
     </html>
   )
