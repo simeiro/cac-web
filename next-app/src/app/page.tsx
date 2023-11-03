@@ -10,9 +10,9 @@ import Footer from "@/components/footer/footer";
 const Page = () => {
   return (
     <>
-    <div className="relative  flex h-screen pt-4">
-      <div className="absolute z-10 inset-0 flex justify-center pt-4">
-        <Product ></Product>
+    <div className="relative  flex h-screen pt-10">
+      <div className="absolute z-10 inset-0 flex justify-center pt-20">
+        <Product displayMedias={[]}></Product>
       </div>
       <div className="relative z-20 ">
         <div id="about" className='pt-2'>
