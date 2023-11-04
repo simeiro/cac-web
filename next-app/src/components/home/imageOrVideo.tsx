@@ -10,7 +10,7 @@ export default function ImageOrVideo(props: Props) {
         return(
             <div className="relative group bg-fixed">
                 <a href={props.url[1]} className="relative block overflow-hidden">
-                    <img src={props.url[0]} alt="ImageOrVideos" className="px-4 py-10 opacity-10" width={480} height={270}/>
+                    <img src={props.url[0]} alt="ImageOrVideos" className="px-4 py-10 opacity-20" width={480} height={270}/>
                     {/* <Image
                     className="px-4 py-10 opacity-10"
                     src={props.url[0]}
