@@ -42,13 +42,13 @@ export default async function Page() {
   const data = await getData()
   return (
     <>
-    <div className="relative  flex h-screen pt-10">
-      <div className="absolute z-10 inset-0 flex justify-center pt-20">
+    <div className="flex justify-center pt-10">
+      <div className="fixed z-10 inset-0 flex justify-center pt-20">
         <Product displayMedias={data}></Product>
       </div>
-      <div className="relative z-20 ">
+      <div className="z-20">
         <div id="about" className='pt-2'>
-          <About ></About>
+          <About></About>
         </div>
 
         <div id="group">
