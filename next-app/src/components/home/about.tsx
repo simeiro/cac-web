@@ -29,7 +29,7 @@ export default function About() {
                     </div>
                 </div>
                 <div>
-                    <Image src="/about/state_board.jpg" alt="作業風景" width={600} height={450}></Image>
+                    <Image src="/about/state_board.jpg" alt="作業風景" width={520} height={490}></Image>
                 </div>
                     
             </div>
