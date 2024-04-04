@@ -6,6 +6,8 @@ import Location from '@/components/home/location';
 import Event from "@/components/home/event/event";
 import Activity from '@/components/home/activity/activity';
 import Footer from "@/components/footer/footer";
+import Header from '@/components/header'
+import SwitchButton from '@/components/switchButton';
 
 
 async function getData() {
@@ -42,11 +44,17 @@ export default async function Page() {
   const data = await getData()
   return (
     <>
-    <div className="flex justify-center pt-10">
-      <div className="fixed z-10 inset-0 flex justify-center pt-20">
+    <div className="flex justify-center">
+      {/* <div className="fixed bottom-0 right-0">
+        <SwitchButton></SwitchButton>
+      </div> */}
+      <div className="absolute z-10 inset-0 flex justify-center pt-20">
         <Product displayMedias={data}></Product>
       </div>
       <div className="z-20">
+        <div>
+          <Header></Header>
+        </div>
         <div id="about" className='pt-2'>
           <About></About>
         </div>

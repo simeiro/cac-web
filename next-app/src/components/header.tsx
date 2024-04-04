@@ -11,8 +11,7 @@ import cacLogo from '../../public/header/logo.png'
  */
 export default function Header() {
     return (
-        <header className='pb-8 w-full  bg-white '>
-            
+        <div className='pb-8 w-full  bg-white'>
             <div className='flex items-center justify-between  pb-2 '>
                 <Image src={cacLogo} alt="C.A.C. logo" width={270} height={150} className="pr-10"/>
                 <div className='text-2xl pt-6 font-moon'>
@@ -25,6 +24,7 @@ export default function Header() {
                 
             </div>
             <div className="w-full h-0.5 bg-blue-300"></div>
-        </header>
+            
+        </div>
     );
 }
